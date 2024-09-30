@@ -7,7 +7,7 @@ import instaloader
 from colored import fg, attr
 import time
 
-# ASCII Banner
+#ASCII Banner
 def print_banner():
     banner = """
 
@@ -19,7 +19,7 @@ __   __ _    ____    _    ____
     """
     print(fg('cyan') + banner + attr('reset'))
 
-# Animation for gathering info
+#Animation for gathering info
 def animate_message(message):
     for c in message:
         print(fg('green') + c + attr('reset'), end='', flush=True)
